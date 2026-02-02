@@ -19,7 +19,10 @@ namespace UP_ASS.Models
         {
             base.OnConfiguring(optionsBuilder);
 
-            optionsBuilder.UseSqlServer(@"");
+            optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSqlLocalDB;
+                                        Database=UP_ASS;
+                                        Trusted_Connection=True;
+                                        TrustServerCertificate=True;");
         }
 
         public MainDB()

@@ -39,13 +39,16 @@ namespace UP_MY_ASS
             }
 
             LoginUser.Name = user.Name;
-            LoginUser.RolePower = user.Role.RolePower;
 
+            WindowCourses w = new WindowCourses();
+
+            w.Show();
+            this.Close();
         }
 
         private void buttQuit_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }

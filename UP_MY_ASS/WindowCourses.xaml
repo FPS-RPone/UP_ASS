@@ -1,0 +1,42 @@
+﻿<Window x:Class="UP_MY_ASS.WindowCourses"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UP_MY_ASS"
+        mc:Ignorable="d"
+        Title="WindowCourses" Background="LightGray" Height="450" FontSize="16" Width="800">
+    <Grid>
+        <DockPanel Name="dockPanelMain">
+            <DockPanel DockPanel.Dock="Top" LastChildFill="False">
+                <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
+                    <Image Source="/logo.jpg" MaxHeight="40" MaxWidth="40" Name="imageWindowLogo" Margin="5"/>
+                    <TextBlock Text="Курсы! :D" Padding="5" Margin="5"/>
+                </StackPanel>
+                    <TextBlock Text="{Binding }" Name="tBoxWindowUsername" DockPanel.Dock="Right" Padding="5" Margin="5" VerticalAlignment="Center"/>
+            </DockPanel>
+            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+                <ComboBox Name="comBoxCategory" SelectionChanged="comBoxCategory_SelectionChanged" Padding="2" Margin="2"/>
+                <TextBox Name="tBoxSearch" TextChanged="tBoxSearch_TextChanged" Width="300" Padding="2" Margin="2"/>
+                <Button Click="buttLessons_Click" Name="buttLessons" Content="Уроки" Padding="2" Margin="2"/>
+                <Button Click="buttAdd_Click" Name="buttAdd" Content="Добавить" Padding="2" Margin="2"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <ScrollViewer Height="350">
+                    <ItemsControl Name="itemsCourses" MouseDoubleClick="itemsCourses_MouseDoubleClick">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                    <StackPanel Orientation="Vertical" DockPanel.Dock="Right">
+                                        <TextBlock Text="{Binding Name, StringFormat=Название: {0}}"/>
+                                        <TextBlock Text="{Binding Category, StringFormat=Категория: {0}}"/>
+                                        <TextBlock Text="{Binding Price, StringFormat=Цена: {0}}"/>
+                                        <TextBlock Text="{Binding LessonsTotal, StringFormat=Уроков: {0}}"/>
+                                    </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </StackPanel>
+        </DockPanel>
+    </Grid>
+</Window>

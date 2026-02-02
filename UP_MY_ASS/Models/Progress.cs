@@ -9,6 +9,7 @@ namespace UP_ASS.Models
 {
     public class Progress
     {
+        public int ProgressId { get; set; }
         public User? User { get; set; } //Пользователь
         public Course? Course { get; set; } //Курс пользователя
         public Lesson? Lesson { get; set; } //Урок

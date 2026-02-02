@@ -9,7 +9,7 @@ namespace UP_ASS.Models
 {
     public class Role
     {
-        public int RolePower { get; set; } //Id и уровень привилегий
+        public int RoleId { get; set; } //Id и уровень привилегий
         //0 - гость, 1 - пользователь, 2 - преподаватель, 3 - менеджер, 4 - админ и т.д.
         [MaxLength(50)]
         public string? RoleName { get; set; } //Название роли
