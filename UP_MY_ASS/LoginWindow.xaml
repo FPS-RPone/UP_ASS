@@ -9,10 +9,10 @@
     <Grid>
         <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Text="Логин" Width="600" Padding="5" Margin="5" FontWeight="DemiBold"/>
-            <TextBox Name="tBoxLogin" Padding="5" Margin="5"/>
+            <TextBox Text="Admin" Name="tBoxLogin" Padding="5" Margin="5"/>
             
             <TextBlock Text="Пароль" Width="600" Padding="5" Margin="5" FontWeight="DemiBold"/>
-            <TextBox Name="tBoxPassword" Padding="5" Margin="5"/>
+            <TextBox Text="Admin" Name="tBoxPassword" Padding="5" Margin="5"/>
 
             <DockPanel LastChildFill="False">
                 <Button Name="buttLogin" Click="buttLogin_Click" Content="Войти" Width="100" Padding="5" Margin="10" HorizontalAlignment="Left" DockPanel.Dock="Left"/>

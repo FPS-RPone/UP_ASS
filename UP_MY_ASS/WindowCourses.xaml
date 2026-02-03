@@ -16,10 +16,10 @@
                     <TextBlock Text="{Binding }" Name="tBoxWindowUsername" DockPanel.Dock="Right" Padding="5" Margin="5" VerticalAlignment="Center"/>
             </DockPanel>
             <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
-                <ComboBox Name="comBoxCategory" SelectionChanged="comBoxCategory_SelectionChanged" Padding="2" Margin="2"/>
-                <TextBox Name="tBoxSearch" TextChanged="tBoxSearch_TextChanged" Width="300" Padding="2" Margin="2"/>
-                <Button Click="buttLessons_Click" Name="buttLessons" Content="Уроки" Padding="2" Margin="2"/>
-                <Button Click="buttAdd_Click" Name="buttAdd" Content="Добавить" Padding="2" Margin="2"/>
+                <ComboBox Name="comBoxCategory" Width="200" SelectionChanged="comBoxCategory_SelectionChanged" Padding="2" Margin="2"/>
+                <TextBox Name="tBoxSearch" TextChanged="tBoxSearch_TextChanged" Width="350" Padding="2" Margin="2"/>
+                <Button Click="buttProgress_Click" Name="buttProgress" Content="Прогресс" Padding="2" Margin="2"/>
+                <Button Click="buttAdd_Click" Name="buttAdd" Content="Добавить курс" Padding="2" Margin="2"/>
             </StackPanel>
             <StackPanel x:Name="stackPanelItemsControl" Orientation="Vertical">
                 <ScrollViewer Height="350">

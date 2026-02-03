@@ -64,8 +64,11 @@ namespace UP_MY_ASS
         //Поиск по названию
         private void tBoxSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
-            if (tBoxSearch.Text == null)
+            if (tBoxSearch.Text == null || tBoxSearch.Text == "")
+            {
+                itemsCourses.ItemsSource = courses;
                 return;
+            }
 
             var list = courses.Where(c => c.Name == tBoxSearch.Text);
 
@@ -106,9 +109,11 @@ namespace UP_MY_ASS
         }
 
         //Отображение уроков
-        private void buttLessons_Click(object sender, RoutedEventArgs e)
+        private void buttProgress_Click(object sender, RoutedEventArgs e)
         {
+            WindowProgress w = new WindowProgress();
 
+            w.ShowDialog();
         }
 
     }

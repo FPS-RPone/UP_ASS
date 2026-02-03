@@ -15,13 +15,13 @@
             <TextBox Text="{Binding Courser}" Padding="5" Margin = "5"/>
 
             <TextBlock Text="Категория:" Margin="3" FontWeight="DemiBold"/>
-            <ComboBox Name="comBoxCategories" Text="{Binding Category}"  Padding="5" Margin = "5"/>
+            <ComboBox Name="comBoxCategories" SelectedItem="{Binding Category}"  Padding="5" Margin = "5"/>
                 
             <TextBlock Text="Описание:" Margin="3" FontWeight="DemiBold"/>
             <TextBox Text="{Binding Description}"  Padding="5" Margin = "5"/>            
                 
             <TextBlock Text="Цена:" Margin="3" FontWeight="DemiBold"/>
-            <TextBox Text="{Binding Price}"        Padding="5" Margin = "5"/>
+            <TextBox Text="{Binding Price}" Padding="5" Margin = "5"/>
 
             <DockPanel LastChildFill="False">
                 <Button Click="buttDone_Click" x:Name="buttDone" Content="Изменить" Margin="5" Padding="5" DockPanel.Dock="Left"/>

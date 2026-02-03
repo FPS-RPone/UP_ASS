@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "E:\\!\\UP_ASS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogress.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogress.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogress.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogress.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowcourses.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowcourses.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogresseditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogresseditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogress.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogress.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogresseditadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogresseditadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogresseditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogresseditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowprogress.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowprogress.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windowcourses.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windowcourses.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\loginuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windoweditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windoweditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windoweditadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windoweditadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\models\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\models\\progress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\models\\maindb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,24 +71,8 @@
       "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\models\\lesson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windoweditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windoweditadd.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\windoweditadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\windoweditadd.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|e:\\!\\up_ass\\up_my_ass\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC39672B-AFED-416E-B932-607DB4D5F2AE}|UP_MY_ASS\\UP_MY_ASS.csproj|solutionrelative:up_my_ass\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,20 +94,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "UP_MY_ASS\\LoginWindow.xaml",
+              "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\LoginWindow.xaml",
+              "RelativeToolTip": "UP_MY_ASS\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-03T09:34:29.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UP_MY_ASS\\LoginWindow.xaml.cs",
+              "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "UP_MY_ASS\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:33:00.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginUser.cs",
+              "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\LoginUser.cs",
+              "RelativeDocumentMoniker": "UP_MY_ASS\\LoginUser.cs",
+              "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\LoginUser.cs",
+              "RelativeToolTip": "UP_MY_ASS\\LoginUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T09:22:15.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WindowProgress.xaml.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowProgress.xaml.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\WindowProgress.xaml.cs",
               "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowProgress.xaml.cs",
               "RelativeToolTip": "UP_MY_ASS\\WindowProgress.xaml.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAnwDYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T06:15:27.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "WindowProgress.xaml",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowProgress.xaml",
               "RelativeDocumentMoniker": "UP_MY_ASS\\WindowProgress.xaml",
@@ -107,13 +157,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "WindowProgressEditAdd.xaml.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowProgressEditAdd.xaml.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\WindowProgressEditAdd.xaml.cs",
               "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowProgressEditAdd.xaml.cs",
               "RelativeToolTip": "UP_MY_ASS\\WindowProgressEditAdd.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBkAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwBkAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T05:38:48.65Z",
               "EditorCaption": ""
@@ -132,13 +182,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "WindowCourses.xaml.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowCourses.xaml.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\WindowCourses.xaml.cs",
               "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowCourses.xaml.cs",
               "RelativeToolTip": "UP_MY_ASS\\WindowCourses.xaml.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAD4v00AAAARAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAawEIAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-03T02:44:32.553Z",
               "EditorCaption": ""
@@ -157,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\AssemblyInfo.cs",
@@ -165,11 +215,12 @@
               "RelativeToolTip": "UP_MY_ASS\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T02:27:48.24Z"
+              "WhenOpened": "2026-02-03T02:27:48.24Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "MainDB.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\Models\\MainDB.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\Models\\MainDB.cs",
@@ -177,12 +228,11 @@
               "RelativeToolTip": "UP_MY_ASS\\Models\\MainDB.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T02:39:32.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T02:39:32.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Course.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\Models\\Course.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\Models\\Course.cs",
@@ -194,7 +244,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
+              "Title": "WindowEditAdd.xaml",
+              "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowEditAdd.xaml",
+              "RelativeDocumentMoniker": "UP_MY_ASS\\WindowEditAdd.xaml",
+              "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowEditAdd.xaml",
+              "RelativeToolTip": "UP_MY_ASS\\WindowEditAdd.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-02T22:26:23.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\App.xaml",
               "RelativeDocumentMoniker": "UP_MY_ASS\\App.xaml",
@@ -206,15 +268,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
               "Title": "WindowEditAdd.xaml.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowEditAdd.xaml.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\WindowEditAdd.xaml.cs",
               "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowEditAdd.xaml.cs",
               "RelativeToolTip": "UP_MY_ASS\\WindowEditAdd.xaml.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T02:28:00.266Z"
+              "WhenOpened": "2026-02-03T02:28:00.266Z",
+              "EditorCaption": ""
             }
           ]
         }
@@ -239,7 +302,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Progress.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\Models\\Progress.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\Models\\Progress.cs",
@@ -253,18 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WindowEditAdd.xaml",
-              "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowEditAdd.xaml",
-              "RelativeDocumentMoniker": "UP_MY_ASS\\WindowEditAdd.xaml",
-              "ToolTip": "E:\\!\\UP_ASS\\UP_MY_ASS\\WindowEditAdd.xaml",
-              "RelativeToolTip": "UP_MY_ASS\\WindowEditAdd.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-02T22:26:23.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\Models\\User.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\Models\\User.cs",
@@ -272,12 +324,11 @@
               "RelativeToolTip": "UP_MY_ASS\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T05:15:06.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T05:15:06.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Lesson.cs",
               "DocumentMoniker": "E:\\!\\UP_ASS\\UP_MY_ASS\\Models\\Lesson.cs",
               "RelativeDocumentMoniker": "UP_MY_ASS\\Models\\Lesson.cs",
@@ -285,8 +336,7 @@
               "RelativeToolTip": "UP_MY_ASS\\Models\\Lesson.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-03T02:38:32.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-03T02:38:32.346Z"
             }
           ]
         }

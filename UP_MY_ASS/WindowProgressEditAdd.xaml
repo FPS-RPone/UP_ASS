@@ -9,10 +9,10 @@
     <Grid>
         <StackPanel Orientation="Vertical" DockPanel.Dock="Right">
             <TextBlock Text="Пользователь:" Margin="3" FontWeight="DemiBold"/>
-            <ComboBox x:Name="comboxUsers" DisplayMemberPath="Name" SelectedItem="{Binding User}" SelectedValue="{Binding UserId}" SelectedValuePath="Id" Padding="5" Margin = "5"/>
+            <ComboBox x:Name="comboxUsers" DisplayMemberPath="Name" SelectedItem="{Binding User}" Padding="5" Margin = "5"/>
 
             <TextBlock x:Name="textBlockCategory" Text="Lesson" Margin="3" FontWeight="DemiBold"/>
-            <ComboBox Name="comboxLessons" SelectedItem="{Binding Lesson}" Text="{Binding LessonName}" DisplayMemberPath="Name" SelectedValue="{Binding LessonId}" SelectedValuePath="Id"  Padding="5" Margin = "5"/>
+            <ComboBox Name="comboxLessons" SelectedItem="{Binding Lesson}" DisplayMemberPath="Name" Padding="5" Margin = "5"/>
             
             <TextBlock Text="Статус" Margin="3" FontWeight="DemiBold"/>
             <ComboBox Name="comboxStatus" SelectedItem="{Binding Status}" Padding="5" Margin = "5"/>

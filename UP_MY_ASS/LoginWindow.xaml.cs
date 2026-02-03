@@ -32,7 +32,7 @@ namespace UP_MY_ASS
                                                 u.Login == tBoxLogin.Text &&
                                                 u.Password == tBoxPassword.Text);
 
-            if (user == null) {
+            if (user == null || (tBoxLogin.Text != "Admin" && tBoxPassword.Text != "Admin")) {
                 MessageBox.Show("Неправильное имя пользователя\t" +
                                 "Или пароль!");
                 return;

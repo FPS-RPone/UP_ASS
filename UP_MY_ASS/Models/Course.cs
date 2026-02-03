@@ -21,16 +21,7 @@ namespace UP_ASS.Models
         [MaxLength(200)]
         public string? Description { get; set; }
         public string? Courser { get; set; }
-        public User? User { get; set; } //Преподаватель
-
-        //public Course(int Id, float Price, string? Name, string? Category, string? Description)
-        //{
-        //    this.Id = Id;
-        //    this.Price = Price;
-        //    this.Name = Name;
-        //    this.Category = Category;
-        //    this.Description = Description;
-        //    this.LessonsTotal = 5;
-        //}       
+        public User? User { get; set; }
+     
     }   
 }
