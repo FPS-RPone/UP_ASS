@@ -21,16 +21,15 @@
                 <Button Click="buttLessons_Click" Name="buttLessons" Content="Уроки" Padding="2" Margin="2"/>
                 <Button Click="buttAdd_Click" Name="buttAdd" Content="Добавить" Padding="2" Margin="2"/>
             </StackPanel>
-            <StackPanel Orientation="Vertical">
+            <StackPanel x:Name="stackPanelItemsControl" Orientation="Vertical">
                 <ScrollViewer Height="350">
-                    <ItemsControl Name="itemsCourses" MouseDoubleClick="itemsCourses_MouseDoubleClick">
+                    <ItemsControl Name="itemsCourses">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                    <StackPanel Orientation="Vertical" DockPanel.Dock="Right">
+                                <StackPanel Orientation="Vertical" MouseDown="StackPanel_MouseDown">
                                         <TextBlock Text="{Binding Name, StringFormat=Название: {0}}"/>
                                         <TextBlock Text="{Binding Category, StringFormat=Категория: {0}}"/>
                                         <TextBlock Text="{Binding Price, StringFormat=Цена: {0}}"/>
-                                        <TextBlock Text="{Binding LessonsTotal, StringFormat=Уроков: {0}}"/>
                                     </StackPanel>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>

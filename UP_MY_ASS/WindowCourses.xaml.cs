@@ -29,12 +29,14 @@ namespace UP_MY_ASS
         {
             InitializeComponent();
 
+            //Отображение и прогрузка
             tBoxWindowUsername.Text = LoginUser.Name;
 
             db.Courses.Load();
 
             courses = db.Courses.Local.ToObservableCollection();
 
+            //Добавим категории
             Categories.Add("Все");
             Categories.Add("Платно");
             Categories.Add("Бесплатно");
@@ -45,6 +47,7 @@ namespace UP_MY_ASS
             itemsCourses.ItemsSource = courses;
         }
 
+        //Поиск по категориям
         private void comBoxCategory_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (comBoxCategory.SelectedItem.ToString() == "Все")
@@ -58,26 +61,34 @@ namespace UP_MY_ASS
             itemsCourses.ItemsSource = list;
         }
 
+        //Поиск по названию
         private void tBoxSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
+            if (tBoxSearch.Text == null)
+                return;
 
+            var list = courses.Where(c => c.Name == tBoxSearch.Text);
+
+            itemsCourses.ItemsSource = list;
         }
 
         //Редактирование по двойному клику
-        private void itemsCourses_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        private void StackPanel_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            if ((sender as ItemsControl).DataContext is Course c) { 
+            if ((sender as StackPanel).DataContext is Course c)
+            {
 
-                if (DialogResult == true) {
-                    WindowEditAdd w = new WindowEditAdd();
-                    w.DataContext = c;
-                    w.ShowDialog();
+                WindowEditAdd w = new WindowEditAdd();
+                w.DataContext = c;
+                w.ShowDialog();
 
+                if (w.DialogResult == true)
                     db.SaveChanges();
-                }
             }
         }
+ 
 
+        //Добавление нового курса
         private void buttAdd_Click(object sender, RoutedEventArgs e)
         {
             Course c = new Course();
@@ -94,9 +105,11 @@ namespace UP_MY_ASS
             }
         }
 
+        //Отображение уроков
         private void buttLessons_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
     }
 }

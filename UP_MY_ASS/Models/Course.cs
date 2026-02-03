@@ -12,7 +12,7 @@ namespace UP_ASS.Models
     public class Course
     {
         //Название, цена, кто ведёт
-        public int CourseId { get; set; }
+        public int Id { get; set; }
         public float? Price { get; set; }
         [MaxLength(50)]
         public string? Name { get; set; }
@@ -22,8 +22,6 @@ namespace UP_ASS.Models
         public string? Description { get; set; }
         public string? Courser { get; set; }
         public User? User { get; set; } //Преподаватель
-        public int? LessonsTotal { get; set; }
-        public ObservableCollection<Lesson>? Lessons { get; set; } //Уроки, которые входят в курс
 
         //public Course(int Id, float Price, string? Name, string? Category, string? Description)
         //{

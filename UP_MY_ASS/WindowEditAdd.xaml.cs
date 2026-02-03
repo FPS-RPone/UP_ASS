@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,14 +22,15 @@ namespace UP_MY_ASS
     /// </summary>
     public partial class WindowEditAdd : Window
     {
-        MainDB db = new MainDB();
+        List<string> categories = new List<string>();
         public WindowEditAdd()
         {
             InitializeComponent();
 
-            db.Lessons.Load();
+            categories.Add("Платно");
+            categories.Add("Бесплатно");
 
-            comboxLessons.ItemsSource = db.Lessons.Local.ToObservableCollection();
+            comBoxCategories.ItemsSource = categories;
         }
 
         private void buttDone_Click(object sender, RoutedEventArgs e)

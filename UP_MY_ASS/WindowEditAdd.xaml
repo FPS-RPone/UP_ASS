@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP_MY_ASS"
         mc:Ignorable="d"
-        Title="WindowEditAdd" Height="760" Width="800" Background="LightGray" FontSize="16">
+        Title="WindowEditAdd" Height="530" Width="800" Background="LightGray" FontSize="16">
     <Grid>
         <StackPanel Orientation="Vertical" DockPanel.Dock="Right">
             <TextBlock Text="Название:" Margin="3" FontWeight="DemiBold"/>
@@ -15,31 +15,17 @@
             <TextBox Text="{Binding Courser}" Padding="5" Margin = "5"/>
 
             <TextBlock Text="Категория:" Margin="3" FontWeight="DemiBold"/>
-            <TextBox Text="{Binding Category}"  Padding="5" Margin = "5"/>
+            <ComboBox Name="comBoxCategories" Text="{Binding Category}"  Padding="5" Margin = "5"/>
                 
             <TextBlock Text="Описание:" Margin="3" FontWeight="DemiBold"/>
             <TextBox Text="{Binding Description}"  Padding="5" Margin = "5"/>            
                 
-            <TextBlock Text="Цена:" Margin="3" FontWeight="DemiBold"/>            
-            <TextBox Text="{Binding Price}"          Padding="5" Margin = "5"/>
-
-            <TextBlock Text="Всего уроков:" Margin="3" FontWeight="DemiBold"/>
-            <TextBox Text="{Binding LessonsTotal}" Padding="5" Margin = "5"/>
-
-            <TextBlock Text="Уроки:" Margin="3"/>
-            <ListBox ItemsSource="{Binding Lessons}" Height="200" Margin="5" Padding="5"/>
-
-            <StackPanel Orientation="Horizontal">
-                <ComboBox Name="comboxLessons" Width="400" Padding="5" Margin="5"/>
-                <DockPanel LastChildFill="False" Margin="170 0 0 0" HorizontalAlignment="Right">
-                    <Button Content="Добавить" Margin="3 3 64 3" Padding="3"/>
-                    <Button Content="Удалить" Margin="3" Padding="3" HorizontalAlignment="Right" DockPanel.Dock="Right"/>
-                </DockPanel>
-            </StackPanel>
+            <TextBlock Text="Цена:" Margin="3" FontWeight="DemiBold"/>
+            <TextBox Text="{Binding Price}"        Padding="5" Margin = "5"/>
 
             <DockPanel LastChildFill="False">
                 <Button Click="buttDone_Click" x:Name="buttDone" Content="Изменить" Margin="5" Padding="5" DockPanel.Dock="Left"/>
-                <Button Click="buttQuit_Click" x:Name="buttQuit" Content="Выход" Margin="5" Padding="5" DockPanel.Dock="Right"/>
+                <Button Click="buttQuit_Click" x:Name="buttQuit" Content="Выход" Margin="5" Padding="5" />
             </DockPanel>
         </StackPanel>
     </Grid>

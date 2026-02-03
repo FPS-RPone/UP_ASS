@@ -8,5 +8,11 @@
     <Compile Update="WindowEditAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="WindowProgress.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowProgressEditAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

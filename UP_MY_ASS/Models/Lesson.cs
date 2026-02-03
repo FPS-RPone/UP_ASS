@@ -16,6 +16,9 @@ namespace UP_ASS.Models
         public string? Name { get; set; }
         [MaxLength(200)]
         public string? Description { get; set; }
-        public User? Courser { get; set; } //Преподаватель
+        [MaxLength(200)]
+        public string? Courser { get; set; }
+
+        public User? User { get; set; } //Преподаватель
     }
 }
