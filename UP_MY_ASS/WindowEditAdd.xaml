@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP_MY_ASS"
         mc:Ignorable="d"
-        Title="WindowEditAdd" Height="530" Width="800" Background="LightGray" FontSize="16">
+        Title="Работа с курсом" Height="530" Width="800" Background="LightGray" FontSize="16">
     <Grid>
         <StackPanel Orientation="Vertical" DockPanel.Dock="Right">
             <TextBlock Text="Название:" Margin="3" FontWeight="DemiBold"/>
@@ -22,6 +22,10 @@
                 
             <TextBlock Text="Цена:" Margin="3" FontWeight="DemiBold"/>
             <TextBox Text="{Binding Price}" Padding="5" Margin = "5"/>
+
+            <TextBlock Text="Изображение:" Margin="3" FontWeight="DemiBold"/>
+                <TextBox x:Name="textBoxImagePath" Text="{Binding ImagePath}" Padding="5" Margin = "5"/>
+
 
             <DockPanel LastChildFill="False">
                 <Button Click="buttDone_Click" x:Name="buttDone" Content="Изменить" Margin="5" Padding="5" DockPanel.Dock="Left"/>

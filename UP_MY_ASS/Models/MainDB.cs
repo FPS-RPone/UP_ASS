@@ -20,7 +20,7 @@ namespace UP_ASS.Models
             base.OnConfiguring(optionsBuilder);
 
             optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSqlLocalDB;
-                                        Database=UP_ASS;
+                                        Database=OnlineSchool;
                                         Trusted_Connection=True;
                                         TrustServerCertificate=True;");
         }

@@ -36,6 +36,12 @@ namespace UP_MY_ASS
 
             courses = db.Courses.Local.ToObservableCollection();
 
+            if (LoginUser.IsGuest)
+            {
+                stackpanelTools.Visibility = Visibility.Collapsed;
+                return;
+            }
+
             //Добавим категории
             Categories.Add("Все");
             Categories.Add("Платно");
@@ -70,7 +76,7 @@ namespace UP_MY_ASS
                 return;
             }
 
-            var list = courses.Where(c => c.Name == tBoxSearch.Text);
+            var list = courses.Where(c => c.Name.Contains(tBoxSearch.Text));
 
             itemsCourses.ItemsSource = list;
         }
@@ -78,6 +84,8 @@ namespace UP_MY_ASS
         //Редактирование по двойному клику
         private void StackPanel_MouseDown(object sender, MouseButtonEventArgs e)
         {
+            if (LoginUser.IsGuest)
+                return;
             if ((sender as StackPanel).DataContext is Course c)
             {
 
@@ -86,7 +94,13 @@ namespace UP_MY_ASS
                 w.ShowDialog();
 
                 if (w.DialogResult == true)
-                    db.SaveChanges();
+                    try {
+                        db.SaveChanges(); }
+                    catch (Exception ex) {
+                        MessageBox.Show(ex.ToString());
+                        return;
+                    }
+
             }
         }
  
@@ -102,9 +116,17 @@ namespace UP_MY_ASS
 
             if (w.ShowDialog() == true)
             {
-                courses.Add(c);
 
-                db.SaveChanges();
+                try
+                {
+                    courses.Add(c);
+                    db.SaveChanges();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString());
+                    return;
+                }
             }
         }
 

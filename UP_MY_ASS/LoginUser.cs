@@ -10,5 +10,6 @@ namespace UP_MY_ASS
     {
         static public string? Name { get; set; }
         static public int RolePower { get; set; }
+        static public bool IsGuest { get; set; }
     }
 }

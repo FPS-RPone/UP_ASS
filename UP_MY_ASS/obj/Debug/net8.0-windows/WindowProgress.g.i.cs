@@ -77,7 +77,7 @@ namespace UP_MY_ASS {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/UP_MY_ASS;component/windowprogress.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/UP_ASS;component/windowprogress.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowProgress.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

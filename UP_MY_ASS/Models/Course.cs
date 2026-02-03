@@ -11,7 +11,7 @@ namespace UP_ASS.Models
 {
     public class Course
     {
-        //Название, цена, кто ведёт
+        //Название, цена, кто преподает
         public int Id { get; set; }
         public float? Price { get; set; }
         [MaxLength(50)]
@@ -21,6 +21,7 @@ namespace UP_ASS.Models
         [MaxLength(200)]
         public string? Description { get; set; }
         public string? Courser { get; set; }
+        public string? ImagePath { get; set; }
         public User? User { get; set; }
      
     }   

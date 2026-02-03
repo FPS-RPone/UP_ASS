@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aADHSUNz9co=",
+  "dgSpecHash": "lx60WoeY3VY=",
   "success": true,
-  "projectFilePath": "E:\\!\\UP_ASS\\UP_MY_ASS\\UP_MY_ASS.csproj",
+  "projectFilePath": "E:\\!\\UP_ASS\\UP_MY_ASS\\UP_ASS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tolya\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tolya\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

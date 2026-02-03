@@ -5,32 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP_MY_ASS"
         mc:Ignorable="d"
-        Title="WindowCourses" Background="LightGray" Height="450" FontSize="16" Width="800">
+        Title="Главное меню" Background="LightGray" Height="450" FontSize="16" Width="800">
     <Grid>
         <DockPanel Name="dockPanelMain">
             <DockPanel DockPanel.Dock="Top" LastChildFill="False">
                 <StackPanel Orientation="Horizontal" DockPanel.Dock="Left">
                     <Image Source="/logo.jpg" MaxHeight="40" MaxWidth="40" Name="imageWindowLogo" Margin="5"/>
-                    <TextBlock Text="Курсы! :D" Padding="5" Margin="5"/>
+                    <TextBlock Text="Онлайн-школа♪" Padding="5" Margin="5"/>
                 </StackPanel>
                     <TextBlock Text="{Binding }" Name="tBoxWindowUsername" DockPanel.Dock="Right" Padding="5" Margin="5" VerticalAlignment="Center"/>
             </DockPanel>
-            <StackPanel Orientation="Horizontal" DockPanel.Dock="Bottom">
+            <StackPanel x:Name="stackpanelTools" Orientation="Horizontal" DockPanel.Dock="Bottom">
                 <ComboBox Name="comBoxCategory" Width="200" SelectionChanged="comBoxCategory_SelectionChanged" Padding="2" Margin="2"/>
                 <TextBox Name="tBoxSearch" TextChanged="tBoxSearch_TextChanged" Width="350" Padding="2" Margin="2"/>
                 <Button Click="buttProgress_Click" Name="buttProgress" Content="Прогресс" Padding="2" Margin="2"/>
                 <Button Click="buttAdd_Click" Name="buttAdd" Content="Добавить курс" Padding="2" Margin="2"/>
             </StackPanel>
-            <StackPanel x:Name="stackPanelItemsControl" Orientation="Vertical">
+            <StackPanel Orientation="Vertical">
                 <ScrollViewer Height="350">
                     <ItemsControl Name="itemsCourses">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate>
-                                <StackPanel Orientation="Vertical" MouseDown="StackPanel_MouseDown">
+                                <DockPanel>
+                                    <Image Source="{Binding ImagePath}" Width="60" Height="60" DockPanel.Dock="Left"/>
+                                    <StackPanel Orientation="Vertical" MouseDown="StackPanel_MouseDown" DockPanel.Dock="Right">
                                         <TextBlock Text="{Binding Name, StringFormat=Название: {0}}"/>
                                         <TextBlock Text="{Binding Category, StringFormat=Категория: {0}}"/>
                                         <TextBlock Text="{Binding Price, StringFormat=Цена: {0}}"/>
                                     </StackPanel>
+                                </DockPanel>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>

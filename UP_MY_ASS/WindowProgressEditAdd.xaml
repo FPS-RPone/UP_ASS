@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:UP_MY_ASS"
         mc:Ignorable="d"
-        Title="WindowProgressEditAdd" Height="320" Width="800">
+        Title="Работа с курсом" Height="320" Width="800">
     <Grid>
         <StackPanel Orientation="Vertical" DockPanel.Dock="Right">
             <TextBlock Text="Пользователь:" Margin="3" FontWeight="DemiBold"/>

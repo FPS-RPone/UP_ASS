@@ -32,7 +32,7 @@ namespace UP_MY_ASS
                                                 u.Login == tBoxLogin.Text &&
                                                 u.Password == tBoxPassword.Text);
 
-            if (user == null || (tBoxLogin.Text != "Admin" && tBoxPassword.Text != "Admin")) {
+            if (user == null) {
                 MessageBox.Show("Неправильное имя пользователя\t" +
                                 "Или пароль!");
                 return;
@@ -48,6 +48,17 @@ namespace UP_MY_ASS
 
         private void buttQuit_Click(object sender, RoutedEventArgs e)
         {
+            this.Close();
+        }
+
+        private void buttSignInAsGuest_Click(object sender, RoutedEventArgs e)
+        {
+            WindowCourses w = new WindowCourses();
+
+            LoginUser.IsGuest = true;
+            LoginUser.Name = "Гость";
+            w.stackpanelTools.Visibility = Visibility.Collapsed;
+            w.Show();
             this.Close();
         }
     }
